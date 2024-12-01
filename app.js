@@ -52,10 +52,10 @@ function takeCommand(message){
     if(message.includes('hey') || message.includes('hello')){
         speak("Hello Sir.. How May I Help You?");
     }
-    else if(message.includes("hu r u")){
+    else if(message.includes("who are you")){
         speak("i am jarvis, personal assistant of farhan ansari")
     }
-    else if(message.includes("who are you")){
+    else if(message.includes("hu r u")){
         speak("i am jarvis, personal assistant of farhan ansari")
     }
     else if(message.includes("how r u")){
