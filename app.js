@@ -55,6 +55,9 @@ function takeCommand(message){
     else if(message.includes("hu r u")){
         speak("i am jarvis, personal assistant of farhan ansari")
     }
+    else if(message.includes("who are you")){
+        speak("i am jarvis, personal assistant of farhan ansari")
+    }
     else if(message.includes("how r u")){
         speak("i am fine sir")
     }
