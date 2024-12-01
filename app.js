@@ -81,7 +81,7 @@ function takeCommand(message){
     }
     else if(message.includes("telegram")){
         window.open("https://telegram.org", "_blank");
-        speak("Opening Facebook...")
+        speak("Opening Telegram...")
     else if(message.includes("open instagram")){
         window.open("https://instagram.com", "_blank");
         speak("Opening instagram...")
